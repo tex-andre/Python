@@ -1,13 +1,6 @@
+from Classe_jogador import Jogador
 import sys
 
-class Jogador:
-    def __init__(self, nome):
-        self.nome = nome
-        self.jogada = ""
-        
-    def Jogada(self, escolha):
-        self.jogada = escolha
-        
 def intro():
     print("Jogo pedra papel ou tesoura!\n")
     
